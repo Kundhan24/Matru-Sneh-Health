@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_kick_tap"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:text="TAP FOR EACH KICK"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="80dp"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <LinearLayout
+        android:id="@+id/session_stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/btn_kick_tap"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/tv_session_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session Kicks: 0"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_last_kick_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last kick: --"
+            android:textColor="@color/mid_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/today_stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/session_stats"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/tv_today_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Today: 12"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_kick_advice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Great! Baby is doing well."
+            android:textColor="@color/teal_500"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <com.matrusneh.health.ui.view.KickBarChartView
+        android:id="@+id/kick_chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/today_stats" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

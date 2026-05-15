@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">757914383145</string>
+    <string name="google_api_key" translatable="false">AIzaSyDUw6HtgmUrk3huk1twofb7Iu_HFiljzWc</string>
+    <string name="google_app_id" translatable="false">1:757914383145:android:9bfac36cd99ad5761efd38</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDUw6HtgmUrk3huk1twofb7Iu_HFiljzWc</string>
+    <string name="google_storage_bucket" translatable="false">matru-sneh-health.firebasestorage.app</string>
+    <string name="project_id" translatable="false">matru-sneh-health</string>
+</resources>

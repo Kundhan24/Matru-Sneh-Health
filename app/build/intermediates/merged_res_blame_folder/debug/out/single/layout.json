@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/fragment_nutrition.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/fragment_nutrition.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/fragment_kick.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/fragment_kick.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/activity_setup.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/activity_setup.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/item_nutrition.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/item_nutrition.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/activity_main.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/fragment_danger_alert.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/fragment_danger_alert.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/fragment_checkup.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/fragment_checkup.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/item_checkup.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/item_checkup.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/fragment_growth.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/fragment_growth.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/fragment_danger.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/fragment_danger.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/fragment_dashboard.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/activity_splash.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/item_danger_sign.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/item_danger_sign.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/fragment_worker.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/fragment_worker.xml"
+    },
+    {
+        "merged": "com.matrusneh.health.app-mergeDebugResources-5:/layout/item_growth.xml",
+        "source": "com.matrusneh.health.app-main-8:/layout/item_growth.xml"
+    }
+]

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.matrusneh.health.ui.fragment.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_kickFragment"
+            app:destination="@id/kickFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_nutritionFragment"
+            app:destination="@id/nutritionFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_growthFragment"
+            app:destination="@id/growthFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_checkupFragment"
+            app:destination="@id/checkupFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_dangerFragment"
+            app:destination="@id/dangerFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_workerFragment"
+            app:destination="@id/workerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/kickFragment"
+        android:name="com.matrusneh.health.ui.fragment.KickFragment"
+        android:label="@string/title_kick_counter"
+        tools:layout="@layout/fragment_kick" />
+
+    <fragment
+        android:id="@+id/nutritionFragment"
+        android:name="com.matrusneh.health.ui.fragment.NutritionFragment"
+        android:label="@string/title_nutrition"
+        tools:layout="@layout/fragment_nutrition" />
+
+    <fragment
+        android:id="@+id/growthFragment"
+        android:name="com.matrusneh.health.ui.fragment.GrowthFragment"
+        android:label="@string/title_growth"
+        tools:layout="@layout/fragment_growth" />
+
+    <fragment
+        android:id="@+id/checkupFragment"
+        android:name="com.matrusneh.health.ui.fragment.CheckupFragment"
+        android:label="@string/title_checkup"
+        tools:layout="@layout/fragment_checkup" />
+
+    <fragment
+        android:id="@+id/dangerFragment"
+        android:name="com.matrusneh.health.ui.fragment.DangerFragment"
+        android:label="@string/title_danger_signs"
+        tools:layout="@layout/fragment_danger">
+        <action
+            android:id="@+id/action_dangerFragment_to_dangerAlertFragment"
+            app:destination="@id/dangerAlertFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dangerAlertFragment"
+        android:name="com.matrusneh.health.ui.fragment.DangerAlertFragment"
+        android:label="Danger Alert"
+        tools:layout="@layout/fragment_danger_alert">
+        <argument
+            android:name="signId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/workerFragment"
+        android:name="com.matrusneh.health.ui.fragment.WorkerFragment"
+        android:label="@string/title_worker"
+        tools:layout="@layout/fragment_worker" />
+
+</navigation>

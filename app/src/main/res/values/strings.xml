@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matru-Sneh Health</string>
+    
+    <!-- Screen Titles -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_kick_counter">Kick Counter</string>
+    <string name="title_nutrition">Nutrition</string>
+    <string name="title_growth">Baby Growth</string>
+    <string name="title_checkup">Check-ups</string>
+    <string name="title_danger_signs">Danger Signs</string>
+    <string name="title_worker">Worker Dashboard</string>
+    <string name="title_setup">Profile Setup</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Save</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_save_continue">Save and Continue</string>
+    <string name="btn_call_asha">Call ASHA Worker</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_mark_complete">Mark Complete</string>
+    <string name="btn_delete">Delete</string>
+    
+    <!-- Setup -->
+    <string name="hint_mother_name">Enter your name</string>
+    <string name="hint_asha_phone">ASHA Worker Phone</string>
+    <string name="hint_phc_name">Nearest PHC Name</string>
+    <string name="hint_phc_phone">PHC Phone</string>
+    <string name="label_lmp_date">LMP Date</string>
+    
+    <!-- Nutrition Items English -->
+    <string-array name="nutrition_items">
+        <item>Ragi</item>
+        <item>Green Leafy Vegetables</item>
+        <item>Pulses or Dal</item>
+        <item>Milk or Curd</item>
+        <item>Eggs</item>
+        <item>Seasonal Fruit</item>
+        <item>Nuts or Groundnuts</item>
+        <item>8+ Glasses of Water</item>
+        <item>Iron-rich Foods</item>
+        <item>Folic Acid Tablet</item>
+    </string-array>
+
+    <!-- Nutrition Items Kannada -->
+    <string-array name="nutrition_items_kn">
+        <item>ರಾಗಿ</item>
+        <item>ಹಸಿರು ಎಲೆಗಳ ತರಕಾರಿಗಳು</item>
+        <item>ಬೇಳೆಕಾಳುಗಳು ಅಥವಾ ದಾಲ್</item>
+        <item>ಹಾಲು ಅಥವಾ ಮೊಸರು</item>
+        <item>ಮೊಟ್ಟೆಗಳು</item>
+        <item>ಕಾಲೋಚಿತ ಹಣ್ಣು</item>
+        <item>ಬೀಜಗಳು ಅಥವಾ ನೆಲಗಡಲೆ</item>
+        <item>8 ಕ್ಕೂ ಹೆಚ್ಚು ಲೋಟ ನೀರು</item>
+        <item>ಕಬ್ಬಿಣದಂಶವಿರುವ ಆಹಾರಗಳು</item>
+        <item>ಫೋಲಿಕ್ ಆಸಿಡ್ ಮಾತ್ರೆ</item>
+    </string-array>
+
+    <!-- Notifications -->
+    <string name="notif_checkup_title">Upcoming Check-up</string>
+    <string name="notif_kick_low_title">Low Kick Count</string>
+    <string name="notif_kick_low_body">Only %1$d kicks logged in 2 hours. Please rest and try again, or contact your ASHA worker if concerned.</string>
+
+</resources>

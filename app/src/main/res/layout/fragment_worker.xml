@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health Worker Access"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Profile Edit -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mother Profile" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+                <EditText android:id="@+id/et_worker_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name"/>
+                <Button android:id="@+id/btn_worker_lmp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LMP Date" style="@style/Widget.MaterialComponents.Button.TextButton"/>
+                <EditText android:id="@+id/et_worker_asha" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="ASHA Phone" android:inputType="phone"/>
+                <EditText android:id="@+id/et_worker_phc" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="PHC Name"/>
+                <EditText android:id="@+id/et_worker_phc_phone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="PHC Phone" android:inputType="phone"/>
+                <Button android:id="@+id/btn_worker_save" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Update Profile" android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Checkup History -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Check-up History" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_worker_checkups"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Danger Logs -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Danger Sign Logs" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_worker_danger"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Nutrition History -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nutrition Last 7 Days" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_worker_nutrition" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Loading..." android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_share_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Health Summary"
+            app:icon="@android:drawable/ic_menu_share"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

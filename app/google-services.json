@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "757914383145",
+    "project_id": "matru-sneh-health",
+    "storage_bucket": "matru-sneh-health.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757914383145:android:9bfac36cd99ad5761efd38",
+        "android_client_info": {
+          "package_name": "com.matrusneh.health"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUw6HtgmUrk3huk1twofb7Iu_HFiljzWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="nutrition_items">
+        <item>Ragi</item>
+        <item>Green Leafy Vegetables</item>
+        <item>Pulses or Dal</item>
+        <item>Milk or Curd</item>
+        <item>Eggs</item>
+        <item>Seasonal Fruit</item>
+        <item>Nuts or Groundnuts</item>
+        <item>8+ Glasses of Water</item>
+        <item>Iron-rich Foods</item>
+        <item>Folic Acid Tablet</item>
+    </string-array>
+    <string-array name="nutrition_items_kn">
+        <item>ರಾಗಿ</item>
+        <item>ಹಸಿರು ಎಲೆಗಳ ತರಕಾರಿಗಳು</item>
+        <item>ಬೇಳೆಕಾಳುಗಳು ಅಥವಾ ದಾಲ್</item>
+        <item>ಹಾಲು ಅಥವಾ ಮೊಸರು</item>
+        <item>ಮೊಟ್ಟೆಗಳು</item>
+        <item>ಕಾಲೋಚಿತ ಹಣ್ಣು</item>
+        <item>ಬೀಜಗಳು ಅಥವಾ ನೆಲಗಡಲೆ</item>
+        <item>8 ಕ್ಕೂ ಹೆಚ್ಚು ಲೋಟ ನೀರು</item>
+        <item>ಕಬ್ಬಿಣದಂಶವಿರುವ ಆಹಾರಗಳು</item>
+        <item>ಫೋಲಿಕ್ ಆಸಿಡ್ ಮಾತ್ರೆ</item>
+    </string-array>
+    <color name="amber_500">#FFC107</color>
+    <color name="black">#FF000000</color>
+    <color name="card_background">#FAFAFA</color>
+    <color name="dark_text">#1A1A1A</color>
+    <color name="mid_gray">#757575</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red_500">#F44336</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_700">#00695C</color>
+    <color name="teal_light">#E0F2F1</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Matru-Sneh Health</string>
+    <string name="btn_call_asha">Call ASHA Worker</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_mark_complete">Mark Complete</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_save_continue">Save and Continue</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="gcm_defaultSenderId" translatable="false">757914383145</string>
+    <string name="google_api_key" translatable="false">AIzaSyDUw6HtgmUrk3huk1twofb7Iu_HFiljzWc</string>
+    <string name="google_app_id" translatable="false">1:757914383145:android:9bfac36cd99ad5761efd38</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDUw6HtgmUrk3huk1twofb7Iu_HFiljzWc</string>
+    <string name="google_storage_bucket" translatable="false">matru-sneh-health.firebasestorage.app</string>
+    <string name="hint_asha_phone">ASHA Worker Phone</string>
+    <string name="hint_mother_name">Enter your name</string>
+    <string name="hint_phc_name">Nearest PHC Name</string>
+    <string name="hint_phc_phone">PHC Phone</string>
+    <string name="label_lmp_date">LMP Date</string>
+    <string name="notif_checkup_title">Upcoming Check-up</string>
+    <string name="notif_kick_low_body">Only %1$d kicks logged in 2 hours. Please rest and try again, or contact your ASHA worker if concerned.</string>
+    <string name="notif_kick_low_title">Low Kick Count</string>
+    <string name="project_id" translatable="false">matru-sneh-health</string>
+    <string name="title_checkup">Check-ups</string>
+    <string name="title_danger_signs">Danger Signs</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_growth">Baby Growth</string>
+    <string name="title_kick_counter">Kick Counter</string>
+    <string name="title_nutrition">Nutrition</string>
+    <string name="title_setup">Profile Setup</string>
+    <string name="title_worker">Worker Dashboard</string>
+    <style name="Theme.MatruSneh" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_500</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+    <style name="Theme.MatruSneh.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MatruSneh.Splash" parent="Theme.MatruSneh.NoActionBar">
+        
+    </style>
+</resources>

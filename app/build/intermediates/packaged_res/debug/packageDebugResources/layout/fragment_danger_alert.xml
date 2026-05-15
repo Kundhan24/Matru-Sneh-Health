@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/alert_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_500"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_alert_emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚠️"
+        android:textSize="80sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:id="@+id/tv_alert_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaginal Bleeding"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_alert_emoji"/>
+
+    <TextView
+        android:id="@+id/tv_alert_name_kn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ಯೋನಿ ರಕ್ತಸ್ರಾವ"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tv_alert_name"/>
+
+    <TextView
+        android:id="@+id/tv_alert_severity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGH SEVERITY"
+        android:background="@color/white"
+        android:textColor="@color/red_500"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_alert_name_kn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_alert_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to hospital immediately"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_alert_severity"/>
+
+    <TextView
+        android:id="@+id/tv_alert_action_kn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ತಕ್ಷಣ ಆಸ್ಪತ್ರೆಗೆ ಹೋಗಿ"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tv_alert_action"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_call_asha_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_call_asha"
+        android:textColor="@color/red_500"
+        app:backgroundTint="@color/white"
+        android:padding="16dp"
+        app:icon="@android:drawable/stat_sys_phone_call"
+        app:iconTint="@color/red_500"
+        app:layout_constraintBottom_toTopOf="@id/btn_dismiss_alert"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_dismiss_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_dismiss"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
